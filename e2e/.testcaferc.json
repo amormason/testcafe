@@ -1,0 +1,18 @@
+{
+    "browsers": [
+        "chrome"
+    ],
+    "src": [
+        "./test/e2e"
+    ],
+    "color": true,
+    "quarantineMode": true,
+    "disablePageCaching": true,
+    "developmentMode": true,
+    "pageLoadTimeout": 9999999999,
+    "stopOnFirstFail": true,
+    "debugOnFail": true,
+    "skipUncaughtErrors": false,
+    "skipJsErrors": true,
+    "hostname": "localhost"
+}

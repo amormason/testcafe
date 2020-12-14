@@ -1,0 +1,22 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "t": "npx gherkin-testcafe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^5.1.0",
+    "gherkin-testcafe": "^2.5.0",
+    "testcafe": "^1.8.4",
+    "testcafe-browser-provider-browserstack": "^1.13.0",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "dependencies": {
+    "testcafe-react-selectors": "^4.1.1"
+  }
+}
