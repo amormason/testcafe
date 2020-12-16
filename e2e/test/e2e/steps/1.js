@@ -12,7 +12,7 @@ const Selector = (input, t) => {
 
 
 Given('open page', async (t) => {
-    await t.navigateTo('https://uat-investments3.personal-banking.hsbc.com.hk/hk/utb-uat/index.html');
+    await t.navigateTo('');
 });
 
 const fillpassword = ClientFunction(() => {
